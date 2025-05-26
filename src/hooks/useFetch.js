@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react'
-import { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 export const useFetch = (url) => {
     const [state, setState] = useState({
@@ -15,7 +14,7 @@ export const useFetch = (url) => {
             isLoading: true
         })
         getFetch()
-    }, [])
+    }, [url])
 
     const getFetch = async() => {
 

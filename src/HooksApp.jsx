@@ -8,7 +8,7 @@ function App() {
   
   return (
     <>
-      <h1>Hooks app</h1>
+      <h1>Hooks app: contadores, formularios y conexión con Api</h1>
       <h2>Counters:</h2>
       <div className='row'>
         <div className='col border m-1 p-2'>
